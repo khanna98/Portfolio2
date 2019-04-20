@@ -1,0 +1,55 @@
+<!-- Navbar -->
+<mdb-navbar
+  SideClass="navbar navbar-expand-lg navbar-dark primary-color-dark fixed-top scrolling-navbar"
+  [containerInside]="false"
+>
+  <!--* Navbar Brand -->
+  <mdb-navbar-brand>
+    <a routerLink="/home" class="navbar-brand">Mayank Khanna</a>
+  </mdb-navbar-brand>
+
+  <!--* Collapsible Content -->
+  <links>
+    <!--* Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="/home" class="nav-link waves-light" mdbWavesEffect
+          >Home <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a routerLink="/projects" class="nav-link waves-light" mdbWavesEffect
+          >Projects</a
+        >
+      </li>
+      <li class="nav-item">
+        <a routerLink="/contact" class="nav-link waves-light" mdbWavesEffect
+          >Contact</a
+        >
+      </li>
+    </ul>
+
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item waves-light" mdbWavesEffect>
+        <a href="https://www.facebook.com/mayank.khanna.900" class="nav-link"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </li>
+      <li class="nav-item waves-light" mdbWavesEffect>
+        <a href="https://github.com/khanna98" class="nav-link"
+          ><i class="fab fa-github"></i
+        ></a>
+      </li>
+      <li class="nav-item waves-light" mdbWavesEffect>
+        <a href="https://twitter.com/khannamayank98" class="nav-link"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </li>
+      <li class="nav-item waves-light" mdbWavesEffect>
+        <a href="https://www.instagram.com/mayank.khanna98/" class="nav-link"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
