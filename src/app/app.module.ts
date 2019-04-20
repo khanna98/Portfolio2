@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
-import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { ResumeComponent } from './resume/resume.component';
     HomeComponent,
     ProjectsComponent,
     ContactComponent,
-    ResumeComponent
   ],
   imports: [
     BrowserModule,
